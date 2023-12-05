@@ -1,0 +1,277 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(211, 211, 211);
+  cursor: not-allowed;
+  font-size: 25px;
+  border: none;
+}
+
+/* HEADING */
+header {
+  background-color: rgb(29, 141, 145);
+  border-radius: 10px;
+  font-weight: 100;
+  text-align: center;
+  margin: 75px 45px 15px 45px;
+  padding: 10px;
+  box-shadow: 40px 10px 50px rgb(29, 141, 145), -40px -24px 50px rgb(0, 0, 0);
+}
+
+header h1 {
+  font-size: 75px;
+  margin: 5px auto;
+  padding: 0px 0px 5px 0px;
+}
+h1 {
+  font-family: Nabla, serif;
+}
+/* Bild "HALLO" */
+header div img {
+  border-radius: 50%;
+  min-width: 100px;
+  max-width: 550px;
+}
+#animation {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 15px;
+  border-bottom-left-radius: 50px;
+  border-end-end-radius: 50px;
+  text-align: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: -2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes example {
+  0% {
+    background-color: black;
+    left: 80px;
+    top: 500px;
+  }
+  25% {
+    background-color: rgb(139, 126, 151);
+    left: 200px;
+    top: 50px;
+  }
+  50% {
+    background-color: black;
+    left: 800px;
+    top: 700px;
+  }
+  75% {
+    background-color: rgb(139, 126, 151);
+    left: 600px;
+    top: 200px;
+  }
+  100% {
+    background-color: black;
+    left: 80px;
+    top: 500px;
+  }
+}
+header h2 {
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(35, 170, 175);
+  width: 60%;
+  margin: 15px auto 0px;
+  padding: 5px 50px;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: "Barlow Condensed", serif;
+  letter-spacing: 10px;
+}
+
+/* NAVIGATION */
+.menu-nav {
+  border: none;
+  background-color: darkgray;
+  border-radius: 15px;
+  margin: 15px 45px 15px 45px;
+  padding: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow", sans-serif;
+}
+.menu-nav li {
+  line-height: 300%;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.menu-nav a {
+  background-color: rgb(91, 147, 215);
+  border: 2px dashed;
+  color: rgb(14, 14, 10);
+  text-decoration: none;
+  margin: 15px auto 0px;
+  padding: 15px 45px;
+  line-height: 100px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+a:hover {
+  background-color: yellow;
+}
+/* FINGERALPHABET */
+h3 {
+  border: none;
+  border-radius: 15px;
+  margin: 10px 45px;
+  padding: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  letter-spacing: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow", sans-serif;
+  font-size: 50px;
+}
+h3:hover {
+  background-color: rgb(139, 126, 151);
+}
+.fingeralphabetparent {
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(139, 126, 151);
+  min-height: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px 45px 15px 45px;
+  padding: 10px 15px;
+}
+.fingeralphabetchild {
+  border: none;
+  border-radius: 15px;
+  width: 500px;
+  min-height: 600px;
+  display: block;
+  margin: 1px auto;
+  padding: 1px;
+}
+.table {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  min-height: 1000px;
+  margin: 1px auto;
+  padding: 1px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.table tr th {
+  border: 10px double rgb(211, 211, 211);
+  border-radius: 10px;
+  margin: 1px 5px;
+  padding: 1px;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 40px;
+}
+.table tr td {
+  border: 5px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin: 5px 5px;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+/* H4 HEADING */
+h4 {
+  border-bottom: 10px double rgb(211, 211, 211);
+  padding: 10px 0px 0px 15px;
+  font-size: 35px;
+  color: yellow;
+}
+/* PAGE WHAT IS SIGN LANGUAGE */
+.whatistsignlanguage {
+  border: none;
+  border-radius: 15px;
+  width: 60%;
+  margin: 75px 45px;
+  padding: 0px 15px 40px;
+  color: rgb(211, 211, 211);
+  text-align: center;
+}
+.whatistsignlanguage:hover {
+  background-color: rgb(139, 126, 151);
+}
+
+/* PAGE HISTORY OF LANGUAGE */
+.historyofsignlanguage {
+  border: 5px none;
+  background-color: rgb(139, 126, 151);
+  border-radius: 15px;
+  color: yellow;
+  margin: 15px 45px 15px 45px;
+  padding: 0px 15px 40px;
+}
+
+.historyofsignlanguage ol {
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+/* PAGE HOW TO LEARN SIGN LANUAGE */
+.howtolearnsignlanguageparent {
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+.howtolearnsignlanguagechild {
+  border: none;
+  background-color: rgb(139, 126, 151);
+  border-radius: 15px;
+  color: yellow;
+  text-align: center;
+  width: 30%;
+  margin: 75px 45px;
+  padding: 40px 15px 0px;
+}
+
+.howtolearnsignlanguagechild section{
+  min-height: 250px;
+}
+
+/* PAGE MORE OF SIGN LANGUAGE */
+.moreofsignlanguage {
+  border: 5px none;
+  background-color: rgb(139, 126, 151);
+  border-radius: 15px;
+  text-align: center;
+  margin: 15px 45px;
+  padding: 0px 15px 40px;
+}
+
+
+/* LINKS/QUELLE */
+.links {
+  border: 5px solid rgb(139, 126, 151);
+  border-radius: 15px;
+  margin: 750px 45px 0px;
+  padding: 0px 0px;
+}
+.links h4 {
+  border: 5px none;
+  border-bottom: 10px double rgb(139, 126, 151);
+  margin: 15px 0px;
+  padding: 0px;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(139, 126, 151);
+}
